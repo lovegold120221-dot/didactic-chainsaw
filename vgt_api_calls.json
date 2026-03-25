@@ -1,0 +1,117 @@
+[
+  {
+    "url": "https://woordenboek.vlaamsegebarentaal.be/search?e=true",
+    "method": "GET",
+    "postData": null
+  },
+  {
+    "url": "https://fonts.googleapis.com/css?family=Raleway:normal,500,bold",
+    "method": "GET",
+    "postData": null
+  },
+  {
+    "url": "https://woordenboek.vlaamsegebarentaal.be/api/ageCategories",
+    "method": "GET",
+    "postData": null
+  },
+  {
+    "url": "https://woordenboek.vlaamsegebarentaal.be/api/categories",
+    "method": "GET",
+    "postData": null
+  },
+  {
+    "url": "https://woordenboek.vlaamsegebarentaal.be/api/handshapes",
+    "method": "GET",
+    "postData": null
+  },
+  {
+    "url": "https://woordenboek.vlaamsegebarentaal.be/api/labels",
+    "method": "GET",
+    "postData": null
+  },
+  {
+    "url": "https://woordenboek.vlaamsegebarentaal.be/api/locations",
+    "method": "GET",
+    "postData": null
+  },
+  {
+    "url": "https://woordenboek.vlaamsegebarentaal.be/api/regions",
+    "method": "GET",
+    "postData": null
+  },
+  {
+    "url": "https://woordenboek.vlaamsegebarentaal.be/api/sexes",
+    "method": "GET",
+    "postData": null
+  },
+  {
+    "url": "https://woordenboek.vlaamsegebarentaal.be/api/signs?c=[]&from=0&g=[]&h=[]&l=[]&lb=[]&mode=ANDExact&q=[]&r=[]&size=12&e=[%22true%22]",
+    "method": "GET",
+    "postData": null
+  },
+  {
+    "url": "https://woordenboek.vlaamsegebarentaal.be/api/signs?c=[]&from=0&g=[]&h=[]&l=[]&lb=[%22Recent%22]&mode=ANDExact&q=[]&r=[]&size=12&e=[]",
+    "method": "GET",
+    "postData": null
+  },
+  {
+    "url": "https://vlaamsegebarentaal.be/signbank/dictionary/protected_media/glossvideo/A-/A-A-15947.mp4",
+    "method": "GET",
+    "postData": null
+  },
+  {
+    "url": "https://vlaamsegebarentaal.be/signbank/dictionary/protected_media/glossvideo/A-/A-B-16993.mp4",
+    "method": "GET",
+    "postData": null
+  },
+  {
+    "url": "https://vlaamsegebarentaal.be/signbank/dictionary/protected_media/glossvideo/AA/AANGENAAM-A-19.mp4",
+    "method": "GET",
+    "postData": null
+  },
+  {
+    "url": "https://vlaamsegebarentaal.be/signbank/dictionary/protected_media/glossvideo/AA/AANHANGWAGEN-A-29.mp4",
+    "method": "GET",
+    "postData": null
+  },
+  {
+    "url": "https://vlaamsegebarentaal.be/signbank/dictionary/protected_media/glossvideo/AA/AANVAARDEN-A-56.mp4",
+    "method": "GET",
+    "postData": null
+  },
+  {
+    "url": "https://vlaamsegebarentaal.be/signbank/dictionary/protected_media/glossvideo/AA/AANVAARDEN-B-57.mp4",
+    "method": "GET",
+    "postData": null
+  },
+  {
+    "url": "https://vlaamsegebarentaal.be/signbank/dictionary/protected_media/glossvideo/AA/AARDAPPEL-A-69.mp4",
+    "method": "GET",
+    "postData": null
+  },
+  {
+    "url": "https://vlaamsegebarentaal.be/signbank/dictionary/protected_media/glossvideo/AA/AARDAPPEL-D-72.mp4",
+    "method": "GET",
+    "postData": null
+  },
+  {
+    "url": "https://vlaamsegebarentaal.be/signbank/dictionary/protected_media/glossvideo/AA/AARDRIJKSKUNDE-D-95.mp4",
+    "method": "GET",
+    "postData": null
+  },
+  {
+    "url": "https://vlaamsegebarentaal.be/signbank/dictionary/protected_media/glossvideo/AA/AARLEN(BEL)-A-17023.mp4",
+    "method": "GET",
+    "postData": null
+  },
+  {
+    "url": "https://vlaamsegebarentaal.be/signbank/dictionary/protected_media/glossvideo/AB/ABONNEMENT-A-112.mp4",
+    "method": "GET",
+    "postData": null
+  },
+  {
+    "url": "https://vlaamsegebarentaal.be/signbank/dictionary/protected_media/glossvideo/AB/ABONNEMENT-C-114.mp4",
+    "method": "GET",
+    "postData": null
+  }
+]

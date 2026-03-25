@@ -1,0 +1,165 @@
+{
+  "languages.spoken": "Alles",
+  "countries.signed": "Alles",
+  "to": "{{a}} → {{b}}",
+  "keyboard": {
+    "ctrl": "Ctrl",
+    "shift": "Shift"
+  },
+  "translate": {
+    "logo": "Vertaal",
+    "title": "Gebarentolk",
+    "language-selector": {
+      "detected": "{{lang}} - Gedetecteerd",
+      "more": "Meer talen",
+      "detect": "Taal herkennen"
+    },
+    "description": "Moeviteloze gebarentaalvertaling in realtime. Vertaal gebarentaal direct op desktop en mobiel.",
+    "input": {
+      "webcam": "Webcam",
+      "upload": "Uploaden",
+      "text": "Tekst"
+    },
+    "swapLanguages": "Talen omwisselen",
+    "spoken-to-signed": {
+      "text": "Gesproken tekst",
+      "placeholder": "Tekst invoeren",
+      "actions": {
+        "download": "Vertaling downloaden",
+        "copy": "Vertaling kopiëren",
+        "share": "Vertaling delen"
+      },
+      "progress-bars": {
+        "human-pose-viewer": {
+          "loading": "Menselijk videomodel laden",
+          "generating": "Video genereren"
+        }
+      }
+    },
+    "signed-to-spoken": {
+      "actions": {
+        "copy": "Vertaling kopiëren"
+      }
+    },
+    "upload": {
+      "title": "Kies een video",
+      "types": "Upload een .mp4, .ogv, of .webm.",
+      "browse": "Browsen op uw computer"
+    },
+    "suggestions": {
+      "translate-from": "Vertalen vanuit",
+      "did-you-mean": "Bedoelde je"
+    }
+  },
+  "landing": {
+    "try": "Nu vertalen",
+    "nav": {
+      "pages": "Navigeer naar andere pagina's",
+      "legal": "Navigeer naar juridische pagina's"
+    },
+    "about": {
+      "title": "Over ons",
+      "hero": {
+        "title": "Vertaal in realtime tussen 40+ gebarentalen en gesproken talen.",
+        "img": "Voorbeeld van live vertaling tussen Vlaamse Gebarentaal en Nederlands"
+      },
+      "direction": {
+        "spoken-to-signed": "Vertalen van gesproken naar gebarentalen",
+        "signed-to-spoken": "Of van gebarentaal naar gesproken talen"
+      },
+      "benefits": {
+        "real-time": {
+          "title": "Realtime vertaling",
+          "subtitle": "Vertaal in realtime tussen meer dan 40 gebarentalen en gesproken talen",
+          "description": "Met onze app kunt u op een natuurlijke en eenvoudige manier met iedereen, overal en altijd, communiceren in uw eigen gebarentaal."
+        },
+        "multilingual": {
+          "title": "Meertalige ondersteuning",
+          "subtitle": "Vertalen tussen verschillende gebarentalen en gesproken talen",
+          "description": "Onze app ondersteunt meerdere gebarentalen en gesproken talen, zodat u kunt communiceren met mensen uit verschillende landen en culturen."
+        },
+        "appearance": {
+          "title": "Aanpasbaar uiterlijk",
+          "subtitle": "Onze fotorealistische gebarentaalavatars bieden een breed scala aan aanpassingsmogelijkheden om aan uw specifieke behoeften te voldoen.",
+          "description": "Of je nu een avatar wilt maken die op jou lijkt of een uniek personage wilt creëren, met onze aanpassingsopties kun je jezelf uitdrukken op een manier die authentiek en trouw aan jou voelt."
+        },
+        "open-source": {
+          "title": "Open Source-project",
+          "subtitle": "Sign Translate is een open-sourceproject waarmee de community een bijdrage kan leveren en de functies ervan kan verbeteren.",
+          "description": "Door onze broncode te delen, willen we samenwerking en transparantie bevorderen. Uw feedback en bijdragen zijn welkom terwijl we ernaar streven de app te verbeteren en uit te breiden."
+        },
+        "offline": {
+          "title": "Offline-functionaliteit",
+          "subtitle": "Sign Translate werkt overal, zelfs offline in een vliegtuig.",
+          "description": "Of u nu op reis bent, in een afgelegen gebied of zonder internet, onze app zorgt ervoor dat u gesproken of geschreven taal altijd in gebarentaal kunt vertalen, zodat u essentiële communicatiemiddelen binnen handbereik heeft."
+        }
+      }
+    },
+    "contribute": {
+      "title": "Bijdragen"
+    },
+    "terms": {
+      "title": "Voorwaarden"
+    },
+    "privacy": {
+      "title": "Privacy"
+    }
+  },
+  "settings": {
+    "title": "Instellingen",
+    "language": {
+      "title": "Taal"
+    },
+    "camera": {
+      "title": "Camera"
+    },
+    "input": {
+      "title": "Invoer"
+    },
+    "output": {
+      "title": "Uitvoer"
+    },
+    "other": {
+      "title": "Andere",
+      "offline": {
+        "title": "Offline",
+        "actions": {
+          "toggle": "{{label}} in-/uitschakelen",
+          "download": "Offline model downloaden",
+          "delete": "Offline model cache leegmaken",
+          "reDownload": "Offline model opnieuw downloaden"
+        },
+        "files": {
+          "pix2pixGenerator": "Fotorealistische menselijke generator",
+          "pix2pixUpscaler": "Fotorealistische menselijke upscaler",
+          "avatarGlb": "3D Avatar",
+          "avatarUsdz": "3D Avatar voor AR op iOS",
+          "translation": "Vertaling",
+          "translation.spokenToSigned": "Gesproken naar Gebarentaal",
+          "translation.signedToSpoken": "Gebarentaal naar Gesproken"
+        }
+      },
+      "appearance": {
+        "title": "Uiterlijk",
+        "action": "Uiterlijk aanpassen",
+        "random": "Krijg een willekeurige foto",
+        "upload": "Upload uw eigen foto"
+      }
+    },
+    "detectSign": "Gebaren detecteren",
+    "drawVideo": "Video tekenen",
+    "drawPose": "Pose tekenen",
+    "drawSignWriting": "Signwriting tekenen",
+    "animatePose": "Pose animeren",
+    "poseViewer": {
+      "pose": "Skeleton",
+      "avatar": "Avatar",
+      "person": "Mens"
+    }
+  },
+  "pose": {
+    "poseViewer": {
+      "loading": "Pose viewer laden"
+    }
+  }
+}
