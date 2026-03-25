@@ -22,6 +22,15 @@
     }
   }
 }
+@if (localGestureGlosses$ | async; as localGestureGlosses) {
+  @if (localGestureGlosses.length > 0) {
+    <div class="local-gesture-glosses" aria-label="Matched VGT signs">
+      @for (gloss of localGestureGlosses; track gloss + $index) {
+        <span class="local-gesture-gloss">{{ gloss }}</span>
+      }
+    </div>
+  }
+}
 @if (pose$ | async; as pose) {
   <div class="actions-row">
     @if (videoUrl) {

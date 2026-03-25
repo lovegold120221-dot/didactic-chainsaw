@@ -45,6 +45,7 @@ export class SignedLanguageOutputComponent extends BaseComponent implements OnIn
   private domSanitizer = inject(DomSanitizer);
 
   poseViewerSetting$!: Observable<PoseViewerSetting>;
+  localGestureGlosses$!: Observable<string[]>;
   pose$!: Observable<string>;
   video$!: Observable<string>;
 
@@ -56,6 +57,7 @@ export class SignedLanguageOutputComponent extends BaseComponent implements OnIn
     super();
 
     this.poseViewerSetting$ = this.store.select<PoseViewerSetting>(state => state.settings.poseViewer);
+    this.localGestureGlosses$ = this.store.select<string[]>(state => state.translate.localGestureGlosses);
     this.pose$ = this.store.select<string>(state => state.translate.signedLanguagePose);
     this.video$ = this.store.select<string>(state => state.translate.signedLanguageVideo);
 

@@ -18,10 +18,11 @@ import {
   UploadPoseFile,
 } from './translate.actions';
 import {TranslationService} from './translate.service';
+import {GestureService} from '../gesture/gesture.service';
 import {SetVideo, StartCamera, StopVideo} from '../../core/modules/ngxs/store/video/video.actions';
 import {catchError, EMPTY, filter, Observable, of} from 'rxjs';
 import {PoseViewerSetting} from '../settings/settings.state';
-import {tap} from 'rxjs/operators';
+import {tap, switchMap} from 'rxjs/operators';
 import {Capacitor} from '@capacitor/core';
 import {SignWritingService} from '../sign-writing/sign-writing.service';
 import {SignWritingTranslationService} from './signwriting-translation.service';
@@ -53,6 +54,7 @@ export interface TranslateStateModel {
   spokenLanguageSentences: string[];
 
   signWriting: SignWritingObj[];
+  localGestureGlosses: string[];
 
   signedLanguagePose: string | Pose; // TODO: use Pose object instead of URL
   signedLanguageVideo: string;
@@ -71,6 +73,7 @@ const initialState: TranslateStateModel = {
   spokenLanguageSentences: [],
 
   signWriting: [],
+  localGestureGlosses: [],
 
   signedLanguagePose: null,
   signedLanguageVideo: null,
@@ -84,6 +87,7 @@ const initialState: TranslateStateModel = {
 export class TranslateState implements NgxsOnInit {
   private store = inject(Store);
   private service = inject(TranslationService);
+  private gestureService = inject(GestureService);
   private swService = inject(SignWritingTranslationService);
   private poseService = inject(PoseService);
   private languageDetectionService = inject(LanguageDetectionService);
@@ -99,10 +103,25 @@ export class TranslateState implements NgxsOnInit {
   ngxsOnInit(context: StateContext<TranslateStateModel>): any {
     this.initFromUrl(context);
 
+    // Preload VGT manifest if VGT is selected
+    const state = context.getState();
+    if (state.signedLanguage === 'vgt') {
+      this.gestureService.loadManifest('vgt').subscribe();
+    }
+
     context.dispatch(ChangeTranslation);
 
     // Reset video whenever viewer setting changes
-    this.poseViewerSetting$.pipe(tap(() => context.dispatch(new SetSignedLanguageVideo(null)))).subscribe();
+    this.poseViewerSetting$
+      .pipe(
+        tap(() => {
+          const {signedLanguagePose} = this.store.selectSnapshot<TranslateStateModel>(state => state.translate);
+          if (signedLanguagePose) {
+            context.dispatch(new SetSignedLanguageVideo(null));
+          }
+        })
+      )
+      .subscribe();
   }
 
   initFromUrl({dispatch, patchState}: StateContext<TranslateStateModel>) {
@@ -196,6 +215,12 @@ export class TranslateState implements NgxsOnInit {
     {language}: SetSignedLanguage
   ): Promise<void> {
     patchState({signedLanguage: language});
+
+    // Preload VGT manifest when VGT is selected
+    if (language === 'vgt') {
+      this.gestureService.loadManifest('vgt').subscribe();
+    }
+
     dispatch(ChangeTranslation);
   }
 
@@ -301,20 +326,66 @@ export class TranslateState implements NgxsOnInit {
       detectedLanguage,
       spokenLanguageText,
       spokenLanguageSentences,
+      signedLanguagePose,
     } = getState();
     if (spokenToSigned) {
-      patchState({signedLanguageVideo: null, signWriting: null}); // reset the signed language translation
+      patchState({
+        signedLanguageVideo: null,
+        signWriting: null,
+        localGestureGlosses: [],
+      }); // reset the signed language translation
 
       const trimmedSpokenLanguageText = spokenLanguageText.trim();
       if (!trimmedSpokenLanguageText) {
-        patchState({signedLanguagePose: null, signWriting: []});
+        this.revokeBlobPoseUrl(signedLanguagePose);
+        patchState({signedLanguagePose: null, signWriting: [], localGestureGlosses: []});
       } else {
         const actualSpokenLanguage = spokenLanguage || detectedLanguage;
+
+        // Check if we should use local VGT gestures
+        if (signedLanguage === 'vgt') {
+          return this.gestureService
+            .translateTextToPoseSequence(trimmedSpokenLanguageText, 'vgt', actualSpokenLanguage)
+            .pipe(
+              switchMap(localSequence => {
+                if (localSequence?.poseUrl) {
+                  this.revokeBlobPoseUrl(signedLanguagePose, localSequence.poseUrl);
+                  patchState({
+                    signedLanguagePose: localSequence.poseUrl,
+                    signWriting: [],
+                    localGestureGlosses: localSequence.signs.map(sign => this.getLocalGestureGloss(sign)),
+                  });
+                  return EMPTY;
+                }
+
+                // Fall back to the remote translation pipeline if the local VGT dictionary
+                // cannot cover the full input with available pose assets.
+                const path = this.service.translateSpokenToSigned(
+                  trimmedSpokenLanguageText,
+                  actualSpokenLanguage,
+                  signedLanguage
+                );
+                this.revokeBlobPoseUrl(signedLanguagePose, path);
+                patchState({signedLanguagePose: path});
+                return this.swService
+                  .translateSpokenToSignWriting(
+                    trimmedSpokenLanguageText,
+                    spokenLanguageSentences,
+                    actualSpokenLanguage,
+                    signedLanguage
+                  )
+                  .pipe(tap(({text}) => dispatch(new SetSignWritingText(text.split(' ')))));
+              })
+            );
+        }
+
+        // Default behavior for other languages
         const path = this.service.translateSpokenToSigned(
           trimmedSpokenLanguageText,
           actualSpokenLanguage,
           signedLanguage
         );
+        this.revokeBlobPoseUrl(signedLanguagePose, path);
         patchState({signedLanguagePose: path});
         return this.swService
           .translateSpokenToSignWriting(
@@ -332,9 +403,28 @@ export class TranslateState implements NgxsOnInit {
 
   @Action(UploadPoseFile)
   uploadPoseFile({getState, patchState}: StateContext<TranslateStateModel>, {url}: UploadPoseFile): void {
-    const {spokenToSigned} = getState();
+    const {spokenToSigned, signedLanguagePose} = getState();
     if (spokenToSigned) {
+      this.revokeBlobPoseUrl(signedLanguagePose, url);
       patchState({signedLanguagePose: url, signedLanguageVideo: initialState.signedLanguageVideo});
+    }
+  }
+
+  private getLocalGestureGloss(sign: {flemish?: string; dutch?: string; english?: string; id: string}): string {
+    return sign.flemish || sign.dutch || sign.english || sign.id;
+  }
+
+  private revokeBlobPoseUrl(currentPose: string | Pose, nextPose?: string | Pose | null): void {
+    if (typeof currentPose !== 'string' || !currentPose.startsWith('blob:')) {
+      return;
+    }
+
+    if (typeof nextPose === 'string' && nextPose === currentPose) {
+      return;
+    }
+
+    if ('URL' in globalThis && 'revokeObjectURL' in URL) {
+      URL.revokeObjectURL(currentPose);
     }
   }
 

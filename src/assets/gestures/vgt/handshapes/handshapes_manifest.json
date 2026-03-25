@@ -1,0 +1,300 @@
+{
+  "language": "vgt",
+  "languageName": "Vlaamse Gebarentaal",
+  "languageNameEnglish": "Flemish Sign Language",
+  "region": "Belgium",
+  "version": "1.0",
+  "description": "VGT Handshapes Reference from Signbank",
+  "handshapes": [
+    {
+      "id": "15",
+      "name": "1",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/15//handshape_15.jpg"
+    },
+    {
+      "id": "21",
+      "name": "1_curved",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/21//handshape_21.jpg"
+    },
+    {
+      "id": "37",
+      "name": "3",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/37//handshape_37.jpg"
+    },
+    {
+      "id": "200",
+      "name": "3_curved",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/200//handshape_200.jpg"
+    },
+    {
+      "id": "35",
+      "name": "4",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/35//handshape_35.jpg"
+    },
+    {
+      "id": "3",
+      "name": "5",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/3//handshape_3.jpg"
+    },
+    {
+      "id": "205",
+      "name": "5_claw",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/30//handshape_30.jpg"
+    },
+    {
+      "id": "203",
+      "name": "5_lax",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/43//handshape_43.jpg"
+    },
+    {
+      "id": "207",
+      "name": "5i",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/19//handshape_19.jpg"
+    },
+    {
+      "id": "30",
+      "name": "5m",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/49//handshape_49.jpg"
+    },
+    {
+      "id": "43",
+      "name": "5m_closed",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/48//handshape_48.jpg"
+    },
+    {
+      "id": "19",
+      "name": "5r",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/24//handshape_24.jpg"
+    },
+    {
+      "id": "49",
+      "name": "5r_closed",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/202//handshape_202.jpg"
+    },
+    {
+      "id": "48",
+      "name": "9",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/6//handshape_6.jpg"
+    },
+    {
+      "id": "24",
+      "name": "A",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/138//handshape_138.jpg"
+    },
+    {
+      "id": "202",
+      "name": "ASL-T",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/26//handshape_26.jpg"
+    },
+    {
+      "id": "6",
+      "name": "B",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/13//handshape_13.jpg"
+    },
+    {
+      "id": "138",
+      "name": "B+1",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/62//handshape_62.jpg"
+    },
+    {
+      "id": "26",
+      "name": "B_bent",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/38//handshape_38.jpg"
+    },
+    {
+      "id": "13",
+      "name": "B_curved",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/29//handshape_29.jpg"
+    },
+    {
+      "id": "62",
+      "name": "Baby_C",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/83//handshape_83.jpg"
+    },
+    {
+      "id": "206",
+      "name": "Baby_C_extended",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/22//handshape_22.jpg"
+    },
+    {
+      "id": "38",
+      "name": "Baby_O",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/17//handshape_17.jpg"
+    },
+    {
+      "id": "29",
+      "name": "Baby_beak",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/85//handshape_85.jpg"
+    },
+    {
+      "id": "83",
+      "name": "Baby_beak_open",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/152//handshape_152.jpg"
+    },
+    {
+      "id": "22",
+      "name": "Beak",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/84//handshape_84.jpg"
+    },
+    {
+      "id": "17",
+      "name": "Beak2",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/87//handshape_87.jpg"
+    },
+    {
+      "id": "85",
+      "name": "Beak2_open",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/86//handshape_86.jpg"
+    },
+    {
+      "id": "152",
+      "name": "Beak2_open_spread",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/27//handshape_27.jpg"
+    },
+    {
+      "id": "210",
+      "name": "Beak_curved",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/136//handshape_136.jpg"
+    },
+    {
+      "id": "84",
+      "name": "Beak_open",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/75//handshape_75.jpg"
+    },
+    {
+      "id": "87",
+      "name": "Beak_open_spread",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/12//handshape_12.jpg"
+    },
+    {
+      "id": "86",
+      "name": "Beak_spread",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/34//handshape_34.jpg"
+    },
+    {
+      "id": "27",
+      "name": "C",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/172//handshape_172.jpg"
+    },
+    {
+      "id": "136",
+      "name": "C2_closed",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/39//handshape_39.jpg"
+    },
+    {
+      "id": "75",
+      "name": "C2_spread",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/197//handshape_197.jpg"
+    },
+    {
+      "id": "12",
+      "name": "C_spread",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/178//handshape_178.jpg"
+    },
+    {
+      "id": "34",
+      "name": "D",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/59//handshape_59.jpg"
+    },
+    {
+      "id": "172",
+      "name": "E",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/25//handshape_25.jpg"
+    },
+    {
+      "id": "39",
+      "name": "F",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/198//handshape_198.jpg"
+    },
+    {
+      "id": "197",
+      "name": "Flower",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/179//handshape_179.jpg"
+    },
+    {
+      "id": "178",
+      "name": "G",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/9//handshape_9.jpg"
+    },
+    {
+      "id": "59",
+      "name": "Horns",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/52//handshape_52.jpg"
+    },
+    {
+      "id": "25",
+      "name": "I",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/40//handshape_40.jpg"
+    },
+    {
+      "id": "198",
+      "name": "ILY",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/80//handshape_80.jpg"
+    },
+    {
+      "id": "179",
+      "name": "K",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/4//handshape_4.jpg"
+    },
+    {
+      "id": "9",
+      "name": "L",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/14//handshape_14.jpg"
+    },
+    {
+      "id": "52",
+      "name": "L2",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/32//handshape_32.jpg"
+    },
+    {
+      "id": "40",
+      "name": "M",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/180//handshape_180.jpg"
+    },
+    {
+      "id": "80",
+      "name": "Middle finger",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/18//handshape_18.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Money",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/47//handshape_47.jpg"
+    },
+    {
+      "id": "14",
+      "name": "N",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/8//handshape_8.jpg"
+    },
+    {
+      "id": "32",
+      "name": "O",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/28//handshape_28.jpg"
+    },
+    {
+      "id": "135",
+      "name": "Other",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/154//handshape_154.jpg"
+    },
+    {
+      "id": "180",
+      "name": "P",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/5//handshape_5.jpg"
+    },
+    {
+      "id": "18",
+      "name": "Q",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/20//handshape_20.jpg"
+    },
+    {
+      "id": "47",
+      "name": "R",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/16//handshape_16.jpg"
+    },
+    {
+      "id": "212",
+      "name": "R extended",
+      "imageUrl": "https://signbank.cls.ru.nl/dictionary/protected_media/handshapeimage/7//handshape_7.jpg"
+    }
+  ]
+}

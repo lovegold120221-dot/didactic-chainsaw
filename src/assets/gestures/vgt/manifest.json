@@ -4,7 +4,7 @@
   "languageNameEnglish": "Flemish Sign Language",
   "region": "Belgium (Flanders)",
   "version": "1.0",
-  "description": "VGT dictionary with 503 signs from woordenboek.vlaamsegebarentaal.be",
+  "description": "VGT dictionary with 506 signs (includes basic signs with sample pose data)",
   "poseFormat": {
     "type": "mediapipe-holistic",
     "components": {
@@ -17,6 +17,106 @@
   "source": "https://woordenboek.vlaamsegebarentaal.be",
   "signs": [
     {
+      "id": "vgt_dag",
+      "flemish": "DAG",
+      "dutch": "dag",
+      "english": "dag",
+      "category": "basic",
+      "poseFile": "poses/vgt_dag.pose",
+      "source": "sample",
+      "note": "day/hello/goodbye - Common greeting"
+    },
+    {
+      "id": "vgt_mijn",
+      "flemish": "MIJN",
+      "dutch": "mijn",
+      "english": "mijn",
+      "category": "basic",
+      "poseFile": "poses/vgt_mijn.pose",
+      "source": "sample",
+      "note": "my/mine - Possessive"
+    },
+    {
+      "id": "vgt_jij",
+      "flemish": "JIJ",
+      "dutch": "jij",
+      "english": "jij",
+      "category": "basic",
+      "poseFile": "poses/vgt_jij.pose",
+      "source": "sample",
+      "note": "you - Pointing to another person"
+    },
+    {
+      "id": "vgt_johan",
+      "flemish": "JOHAN",
+      "dutch": "Johan",
+      "english": "Johan",
+      "category": "basic",
+      "poseFile": "poses/vgt_johan.pose",
+      "source": "sample",
+      "note": "Name sign for Johan (sample)"
+    },
+    {
+      "id": "vgt_zijn",
+      "flemish": "ZIJN",
+      "dutch": "zijn",
+      "english": "zijn",
+      "category": "basic",
+      "poseFile": "poses/vgt_zijn.pose",
+      "source": "sample",
+      "note": "are/to be - To be verb (pointing gesture)"
+    },
+    {
+      "id": "vgt_ben",
+      "flemish": "BEN",
+      "dutch": "ben",
+      "english": "ben",
+      "category": "basic",
+      "poseFile": "poses/vgt_ben.pose",
+      "source": "sample",
+      "note": "am - To be verb (pointing gesture)"
+    },
+    {
+      "id": "vgt_ik",
+      "flemish": "IK",
+      "dutch": "ik",
+      "english": "ik",
+      "category": "basic",
+      "poseFile": "poses/vgt_ik.pose",
+      "source": "sample",
+      "note": "I/me - Pointing to self (pointing gesture)"
+    },
+    {
+      "id": "vgt_nee",
+      "flemish": "NEE",
+      "dutch": "nee",
+      "english": "no",
+      "category": "basic",
+      "poseFile": "poses/vgt_nee.pose",
+      "source": "sample",
+      "note": "Negation sign - sample pose data"
+    },
+    {
+      "id": "vgt_ja",
+      "flemish": "JA",
+      "dutch": "ja",
+      "english": "yes",
+      "category": "basic",
+      "poseFile": "poses/vgt_ja.pose",
+      "source": "sample",
+      "note": "Affirmation sign - sample pose data"
+    },
+    {
+      "id": "vgt_hallo",
+      "flemish": "HALLO",
+      "dutch": "hallo",
+      "english": "hello",
+      "category": "basic",
+      "poseFile": "poses/vgt_hallo.pose",
+      "source": "sample",
+      "note": "Basic greeting - sample pose data"
+    },
+    {
       "id": "vgt_15947",
       "flemish": "A",
       "dutch": "a",
@@ -28,7 +128,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_15947.pose"
     },
     {
       "id": "vgt_16993",
@@ -42,7 +143,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_16993.pose"
     },
     {
       "id": "vgt_19",
@@ -56,7 +158,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_19.pose"
     },
     {
       "id": "vgt_29",
@@ -70,7 +173,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_29.pose"
     },
     {
       "id": "vgt_56",
@@ -84,7 +188,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_56.pose"
     },
     {
       "id": "vgt_57",
@@ -98,7 +203,8 @@
       "regions": [
         "West-Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_57.pose"
     },
     {
       "id": "vgt_69",
@@ -112,7 +218,8 @@
       "regions": [
         "West-Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_69.pose"
     },
     {
       "id": "vgt_72",
@@ -126,7 +233,8 @@
       "regions": [
         "Antwerpen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_72.pose"
     },
     {
       "id": "vgt_95",
@@ -140,7 +248,8 @@
       "regions": [
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_95.pose"
     },
     {
       "id": "vgt_17023",
@@ -154,7 +263,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_17023.pose"
     },
     {
       "id": "vgt_112",
@@ -170,7 +280,8 @@
         "Limburg",
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_112.pose"
     },
     {
       "id": "vgt_114",
@@ -185,7 +296,8 @@
         "West-Vlaanderen",
         "Oost-Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_114.pose"
     },
     {
       "id": "vgt_14636",
@@ -199,7 +311,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_14636.pose"
     },
     {
       "id": "vgt_20959",
@@ -213,7 +326,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_20959.pose"
     },
     {
       "id": "vgt_136",
@@ -227,7 +341,8 @@
       "regions": [
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_136.pose"
     },
     {
       "id": "vgt_168",
@@ -241,7 +356,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_168.pose"
     },
     {
       "id": "vgt_20356",
@@ -255,7 +371,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_20356.pose"
     },
     {
       "id": "vgt_197",
@@ -270,7 +387,8 @@
         "Oost-Vlaanderen",
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_197.pose"
     },
     {
       "id": "vgt_208",
@@ -284,7 +402,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_208.pose"
     },
     {
       "id": "vgt_232",
@@ -298,7 +417,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_232.pose"
     },
     {
       "id": "vgt_296",
@@ -312,7 +432,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_296.pose"
     },
     {
       "id": "vgt_314",
@@ -329,7 +450,8 @@
         "Limburg",
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_314.pose"
     },
     {
       "id": "vgt_324",
@@ -343,7 +465,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_324.pose"
     },
     {
       "id": "vgt_323",
@@ -357,7 +480,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_323.pose"
     },
     {
       "id": "vgt_1167",
@@ -371,13 +495,14 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_1167.pose"
     },
     {
       "id": "vgt_16371",
       "flemish": "ALBERT-I",
-      "dutch": "koning Albert I van Belgi\u00eb, Albert",
-      "english": "koning Albert I van Belgi\u00eb, Albert",
+      "dutch": "koning Albert I van België, Albert",
+      "english": "koning Albert I van België, Albert",
       "category": "Vlaanderen",
       "videoUrl": "https://vlaamsegebarentaal.be/signbank/dictionary/protected_media/glossvideo/AL/ALBERT-I-C-16371.mp4",
       "vimeoUrl": "https://vimeo.com/vgtc/16371ety",
@@ -385,7 +510,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_16371.pose"
     },
     {
       "id": "vgt_353",
@@ -399,7 +525,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_353.pose"
     },
     {
       "id": "vgt_371",
@@ -413,13 +540,14 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_371.pose"
     },
     {
       "id": "vgt_18285",
       "flemish": "ALLEEN",
-      "dutch": "alleen, ge\u00efsoleerd",
-      "english": "alleen, ge\u00efsoleerd",
+      "dutch": "alleen, geïsoleerd",
+      "english": "alleen, geïsoleerd",
       "category": "",
       "videoUrl": "https://vlaamsegebarentaal.be/signbank/dictionary/protected_media/glossvideo/AL/ALLEEN-C-18285.mp4",
       "vimeoUrl": "https://vimeo.com/vgtc/18285ety",
@@ -427,7 +555,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_18285.pose"
     },
     {
       "id": "vgt_405",
@@ -441,7 +570,8 @@
       "regions": [
         "West-Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_405.pose"
     },
     {
       "id": "vgt_426",
@@ -455,7 +585,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_426.pose"
     },
     {
       "id": "vgt_20643",
@@ -469,7 +600,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_20643.pose"
     },
     {
       "id": "vgt_460",
@@ -483,7 +615,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_460.pose"
     },
     {
       "id": "vgt_14709",
@@ -497,7 +630,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_14709.pose"
     },
     {
       "id": "vgt_462",
@@ -513,7 +647,8 @@
         "Oost-Vlaanderen",
         "Antwerpen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_462.pose"
     },
     {
       "id": "vgt_480",
@@ -527,7 +662,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_480.pose"
     },
     {
       "id": "vgt_17416",
@@ -541,7 +677,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_17416.pose"
     },
     {
       "id": "vgt_20726",
@@ -555,7 +692,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_20726.pose"
     },
     {
       "id": "vgt_499",
@@ -570,7 +708,8 @@
         "West-Vlaanderen",
         "Oost-Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_499.pose"
     },
     {
       "id": "vgt_500",
@@ -584,7 +723,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_500.pose"
     },
     {
       "id": "vgt_507",
@@ -599,7 +739,8 @@
         "Antwerpen",
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_507.pose"
     },
     {
       "id": "vgt_516",
@@ -613,7 +754,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_516.pose"
     },
     {
       "id": "vgt_525",
@@ -627,7 +769,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_525.pose"
     },
     {
       "id": "vgt_538",
@@ -643,7 +786,8 @@
         "Limburg",
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_538.pose"
     },
     {
       "id": "vgt_567",
@@ -657,7 +801,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_567.pose"
     },
     {
       "id": "vgt_571",
@@ -671,7 +816,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_571.pose"
     },
     {
       "id": "vgt_572",
@@ -685,7 +831,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_572.pose"
     },
     {
       "id": "vgt_579",
@@ -699,7 +846,8 @@
       "regions": [
         "Oost-Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_579.pose"
     },
     {
       "id": "vgt_583",
@@ -713,7 +861,8 @@
       "regions": [
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_583.pose"
     },
     {
       "id": "vgt_584",
@@ -727,7 +876,8 @@
       "regions": [
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_584.pose"
     },
     {
       "id": "vgt_607",
@@ -741,7 +891,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_607.pose"
     },
     {
       "id": "vgt_620",
@@ -758,7 +909,8 @@
         "Antwerpen",
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_620.pose"
     },
     {
       "id": "vgt_657",
@@ -772,7 +924,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_657.pose"
     },
     {
       "id": "vgt_21031",
@@ -786,7 +939,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_21031.pose"
     },
     {
       "id": "vgt_17012",
@@ -800,7 +954,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_17012.pose"
     },
     {
       "id": "vgt_724",
@@ -814,7 +969,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_724.pose"
     },
     {
       "id": "vgt_742",
@@ -830,7 +986,8 @@
         "Limburg",
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_742.pose"
     },
     {
       "id": "vgt_743",
@@ -846,7 +1003,8 @@
         "Limburg",
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_743.pose"
     },
     {
       "id": "vgt_746",
@@ -860,7 +1018,8 @@
       "regions": [
         "West-Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_746.pose"
     },
     {
       "id": "vgt_768",
@@ -874,7 +1033,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_768.pose"
     },
     {
       "id": "vgt_773",
@@ -888,7 +1048,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_773.pose"
     },
     {
       "id": "vgt_785",
@@ -905,7 +1066,8 @@
         "Limburg",
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_785.pose"
     },
     {
       "id": "vgt_15948",
@@ -919,7 +1081,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_15948.pose"
     },
     {
       "id": "vgt_827",
@@ -933,13 +1096,14 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_827.pose"
     },
     {
       "id": "vgt_842",
       "flemish": "BABYLONIE",
-      "dutch": "Babyloni\u00eb, Babylon",
-      "english": "Babyloni\u00eb, Babylon",
+      "dutch": "Babylonië, Babylon",
+      "english": "Babylonië, Babylon",
       "category": "",
       "videoUrl": "https://vlaamsegebarentaal.be/signbank/dictionary/protected_media/glossvideo/BA/BABYLONIE-A-842.mp4",
       "vimeoUrl": "Het gebaar verwijst naar gevlochten baarden, zie ook foto",
@@ -947,7 +1111,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_842.pose"
     },
     {
       "id": "vgt_21109",
@@ -961,7 +1126,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_21109.pose"
     },
     {
       "id": "vgt_860",
@@ -975,7 +1141,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_860.pose"
     },
     {
       "id": "vgt_15226",
@@ -989,7 +1156,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_15226.pose"
     },
     {
       "id": "vgt_901",
@@ -1003,7 +1171,8 @@
       "regions": [
         "West-Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_901.pose"
     },
     {
       "id": "vgt_943",
@@ -1017,7 +1186,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_943.pose"
     },
     {
       "id": "vgt_944",
@@ -1031,7 +1201,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_944.pose"
     },
     {
       "id": "vgt_945",
@@ -1045,7 +1216,8 @@
       "regions": [
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_945.pose"
     },
     {
       "id": "vgt_994",
@@ -1059,7 +1231,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_994.pose"
     },
     {
       "id": "vgt_1017",
@@ -1076,7 +1249,8 @@
         "Antwerpen",
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_1017.pose"
     },
     {
       "id": "vgt_1079",
@@ -1090,13 +1264,14 @@
       "regions": [
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_1079.pose"
     },
     {
       "id": "vgt_1185",
       "flemish": "BELGIE",
-      "dutch": "Belgi\u00eb",
-      "english": "Belgi\u00eb",
+      "dutch": "België",
+      "english": "België",
       "category": "Vlaanderen",
       "videoUrl": "https://vlaamsegebarentaal.be/signbank/dictionary/protected_media/glossvideo/BE/BELGIE-A-1185.mp4",
       "vimeoUrl": "https://vimeo.com/vgtc/1185ety",
@@ -1104,7 +1279,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_1185.pose"
     },
     {
       "id": "vgt_1328",
@@ -1118,7 +1294,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_1328.pose"
     },
     {
       "id": "vgt_19016",
@@ -1132,7 +1309,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_19016.pose"
     },
     {
       "id": "vgt_1423",
@@ -1146,7 +1324,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_1423.pose"
     },
     {
       "id": "vgt_21114",
@@ -1160,7 +1339,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_21114.pose"
     },
     {
       "id": "vgt_1524",
@@ -1174,7 +1354,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_1524.pose"
     },
     {
       "id": "vgt_20810",
@@ -1188,7 +1369,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_20810.pose"
     },
     {
       "id": "vgt_1573",
@@ -1202,7 +1384,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_1573.pose"
     },
     {
       "id": "vgt_1606",
@@ -1216,7 +1399,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_1606.pose"
     },
     {
       "id": "vgt_1727",
@@ -1231,7 +1415,8 @@
         "West-Vlaanderen",
         "Oost-Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_1727.pose"
     },
     {
       "id": "vgt_20762",
@@ -1245,7 +1430,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_20762.pose"
     },
     {
       "id": "vgt_14754",
@@ -1259,7 +1445,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_14754.pose"
     },
     {
       "id": "vgt_14755",
@@ -1273,7 +1460,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_14755.pose"
     },
     {
       "id": "vgt_1782",
@@ -1287,7 +1475,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_1782.pose"
     },
     {
       "id": "vgt_1830",
@@ -1301,7 +1490,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_1830.pose"
     },
     {
       "id": "vgt_1858",
@@ -1317,7 +1507,8 @@
         "Limburg",
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_1858.pose"
     },
     {
       "id": "vgt_1971",
@@ -1331,7 +1522,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_1971.pose"
     },
     {
       "id": "vgt_15458",
@@ -1345,7 +1537,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_15458.pose"
     },
     {
       "id": "vgt_2021",
@@ -1359,7 +1552,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_2021.pose"
     },
     {
       "id": "vgt_2056",
@@ -1373,7 +1567,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_2056.pose"
     },
     {
       "id": "vgt_2057",
@@ -1388,7 +1583,8 @@
         "Antwerpen",
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_2057.pose"
     },
     {
       "id": "vgt_2065",
@@ -1403,7 +1599,8 @@
         "Antwerpen",
         "Limburg"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_2065.pose"
     },
     {
       "id": "vgt_2067",
@@ -1418,7 +1615,8 @@
         "Limburg",
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_2067.pose"
     },
     {
       "id": "vgt_2077",
@@ -1432,7 +1630,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_2077.pose"
     },
     {
       "id": "vgt_2078",
@@ -1446,7 +1645,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_2078.pose"
     },
     {
       "id": "vgt_15949",
@@ -1460,13 +1660,14 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_15949.pose"
     },
     {
       "id": "vgt_2172",
       "flemish": "CAFE",
-      "dutch": "caf\u00e9, kroeg, bar",
-      "english": "caf\u00e9, kroeg, bar",
+      "dutch": "café, kroeg, bar",
+      "english": "café, kroeg, bar",
       "category": "Vlaanderen",
       "videoUrl": "https://vlaamsegebarentaal.be/signbank/dictionary/protected_media/glossvideo/CA/CAFE-A-2172.mp4",
       "vimeoUrl": "https://vimeo.com/vgtc/2172ety",
@@ -1474,7 +1675,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_2172.pose"
     },
     {
       "id": "vgt_2218",
@@ -1488,7 +1690,8 @@
       "regions": [
         "West-Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_2218.pose"
     },
     {
       "id": "vgt_2220",
@@ -1502,7 +1705,8 @@
       "regions": [
         "Limburg"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_2220.pose"
     },
     {
       "id": "vgt_2221",
@@ -1516,7 +1720,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_2221.pose"
     },
     {
       "id": "vgt_21116",
@@ -1530,7 +1735,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_21116.pose"
     },
     {
       "id": "vgt_2405",
@@ -1544,7 +1750,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_2405.pose"
     },
     {
       "id": "vgt_2406",
@@ -1558,7 +1765,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_2406.pose"
     },
     {
       "id": "vgt_2501",
@@ -1572,13 +1780,14 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_2501.pose"
     },
     {
       "id": "vgt_15390",
       "flemish": "COORDINEREN",
-      "dutch": "co\u00f6rdineren, co\u00f6rdinator, beheren, besturen",
-      "english": "co\u00f6rdineren, co\u00f6rdinator, beheren, besturen",
+      "dutch": "coördineren, coördinator, beheren, besturen",
+      "english": "coördineren, coördinator, beheren, besturen",
       "category": "Vlaanderen",
       "videoUrl": "https://vlaamsegebarentaal.be/signbank/dictionary/protected_media/glossvideo/CO/COORDINEREN-A-15390.mp4",
       "vimeoUrl": "https://vimeo.com/vgtc/15390ety",
@@ -1586,7 +1795,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_15390.pose"
     },
     {
       "id": "vgt_2586",
@@ -1600,7 +1810,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_2586.pose"
     },
     {
       "id": "vgt_15950",
@@ -1614,7 +1825,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_15950.pose"
     },
     {
       "id": "vgt_2623",
@@ -1629,7 +1841,8 @@
         "Antwerpen",
         "Limburg"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_2623.pose"
     },
     {
       "id": "vgt_2626",
@@ -1645,7 +1858,8 @@
         "Limburg",
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_2626.pose"
     },
     {
       "id": "vgt_2627",
@@ -1659,7 +1873,8 @@
       "regions": [
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_2627.pose"
     },
     {
       "id": "vgt_2628",
@@ -1673,7 +1888,8 @@
       "regions": [
         "West-Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_2628.pose"
     },
     {
       "id": "vgt_2750",
@@ -1687,7 +1903,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_2750.pose"
     },
     {
       "id": "vgt_2837",
@@ -1701,7 +1918,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_2837.pose"
     },
     {
       "id": "vgt_2866",
@@ -1715,7 +1933,8 @@
       "regions": [
         "Antwerpen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_2866.pose"
     },
     {
       "id": "vgt_19469",
@@ -1729,7 +1948,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_19469.pose"
     },
     {
       "id": "vgt_19225",
@@ -1743,7 +1963,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_19225.pose"
     },
     {
       "id": "vgt_2928",
@@ -1758,7 +1979,8 @@
         "Oost-Vlaanderen",
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_2928.pose"
     },
     {
       "id": "vgt_2972",
@@ -1772,7 +1994,8 @@
       "regions": [
         "West-Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_2972.pose"
     },
     {
       "id": "vgt_2974",
@@ -1786,13 +2009,14 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_2974.pose"
     },
     {
       "id": "vgt_3008",
       "flemish": "DISCUSSIEREN",
-      "dutch": "discussie, discussi\u00ebren, debat, debatteren",
-      "english": "discussie, discussi\u00ebren, debat, debatteren",
+      "dutch": "discussie, discussiëren, debat, debatteren",
+      "english": "discussie, discussiëren, debat, debatteren",
       "category": "Vlaanderen",
       "videoUrl": "https://vlaamsegebarentaal.be/signbank/dictionary/protected_media/glossvideo/DI/DISCUSSIEREN-A-3008.mp4",
       "vimeoUrl": "https://vimeo.com/vgtc/3008ety",
@@ -1800,7 +2024,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_3008.pose"
     },
     {
       "id": "vgt_3027",
@@ -1814,7 +2039,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_3027.pose"
     },
     {
       "id": "vgt_20950",
@@ -1828,7 +2054,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_20950.pose"
     },
     {
       "id": "vgt_3051",
@@ -1842,7 +2069,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_3051.pose"
     },
     {
       "id": "vgt_3062",
@@ -1856,7 +2084,8 @@
       "regions": [
         "West-Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_3062.pose"
     },
     {
       "id": "vgt_3063",
@@ -1870,7 +2099,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_3063.pose"
     },
     {
       "id": "vgt_3066",
@@ -1884,7 +2114,8 @@
       "regions": [
         "Oost-Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_3066.pose"
     },
     {
       "id": "vgt_3067",
@@ -1898,7 +2129,8 @@
       "regions": [
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_3067.pose"
     },
     {
       "id": "vgt_11469",
@@ -1912,7 +2144,8 @@
       "regions": [
         "Antwerpen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_11469.pose"
     },
     {
       "id": "vgt_3091",
@@ -1926,7 +2159,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_3091.pose"
     },
     {
       "id": "vgt_3101",
@@ -1940,7 +2174,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_3101.pose"
     },
     {
       "id": "vgt_3120",
@@ -1954,7 +2189,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_3120.pose"
     },
     {
       "id": "vgt_14884",
@@ -1968,7 +2204,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_14884.pose"
     },
     {
       "id": "vgt_3121",
@@ -1983,7 +2220,8 @@
         "West-Vlaanderen",
         "Oost-Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_3121.pose"
     },
     {
       "id": "vgt_3122",
@@ -1997,7 +2235,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_3122.pose"
     },
     {
       "id": "vgt_3125",
@@ -2011,7 +2250,8 @@
       "regions": [
         "Oost-Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_3125.pose"
     },
     {
       "id": "vgt_3163",
@@ -2025,7 +2265,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_3163.pose"
     },
     {
       "id": "vgt_3290",
@@ -2039,7 +2280,8 @@
       "regions": [
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_3290.pose"
     },
     {
       "id": "vgt_15951",
@@ -2053,7 +2295,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_15951.pose"
     },
     {
       "id": "vgt_3352",
@@ -2067,7 +2310,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_3352.pose"
     },
     {
       "id": "vgt_3397",
@@ -2081,7 +2325,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_3397.pose"
     },
     {
       "id": "vgt_3449",
@@ -2095,7 +2340,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_3449.pose"
     },
     {
       "id": "vgt_3494",
@@ -2109,7 +2355,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_3494.pose"
     },
     {
       "id": "vgt_6438",
@@ -2123,7 +2370,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_6438.pose"
     },
     {
       "id": "vgt_15455",
@@ -2137,7 +2385,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_15455.pose"
     },
     {
       "id": "vgt_3547",
@@ -2151,7 +2400,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_3547.pose"
     },
     {
       "id": "vgt_20637",
@@ -2165,7 +2415,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_20637.pose"
     },
     {
       "id": "vgt_3695",
@@ -2182,7 +2433,8 @@
         "Antwerpen",
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_3695.pose"
     },
     {
       "id": "vgt_3696",
@@ -2196,7 +2448,8 @@
       "regions": [
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_3696.pose"
     },
     {
       "id": "vgt_15952",
@@ -2210,7 +2463,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_15952.pose"
     },
     {
       "id": "vgt_3719",
@@ -2224,7 +2478,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_3719.pose"
     },
     {
       "id": "vgt_3756",
@@ -2238,7 +2493,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_3756.pose"
     },
     {
       "id": "vgt_3758",
@@ -2253,7 +2509,8 @@
         "West-Vlaanderen",
         "Oost-Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_3758.pose"
     },
     {
       "id": "vgt_3898",
@@ -2267,7 +2524,8 @@
       "regions": [
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_3898.pose"
     },
     {
       "id": "vgt_14899",
@@ -2281,7 +2539,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_14899.pose"
     },
     {
       "id": "vgt_3992",
@@ -2295,7 +2554,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_3992.pose"
     },
     {
       "id": "vgt_3993",
@@ -2309,7 +2569,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_3993.pose"
     },
     {
       "id": "vgt_4032",
@@ -2323,7 +2584,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_4032.pose"
     },
     {
       "id": "vgt_18834",
@@ -2337,7 +2599,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_18834.pose"
     },
     {
       "id": "vgt_4070",
@@ -2351,7 +2614,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_4070.pose"
     },
     {
       "id": "vgt_4093",
@@ -2365,7 +2629,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_4093.pose"
     },
     {
       "id": "vgt_4112",
@@ -2379,7 +2644,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_4112.pose"
     },
     {
       "id": "vgt_4114",
@@ -2393,7 +2659,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_4114.pose"
     },
     {
       "id": "vgt_20727",
@@ -2407,7 +2674,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_20727.pose"
     },
     {
       "id": "vgt_20728",
@@ -2421,7 +2689,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_20728.pose"
     },
     {
       "id": "vgt_21098",
@@ -2435,7 +2704,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_21098.pose"
     },
     {
       "id": "vgt_4152",
@@ -2449,7 +2719,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_4152.pose"
     },
     {
       "id": "vgt_4207",
@@ -2463,7 +2734,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_4207.pose"
     },
     {
       "id": "vgt_4208",
@@ -2477,7 +2749,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_4208.pose"
     },
     {
       "id": "vgt_20345",
@@ -2491,7 +2764,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_20345.pose"
     },
     {
       "id": "vgt_4213",
@@ -2505,7 +2779,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_4213.pose"
     },
     {
       "id": "vgt_5042",
@@ -2519,7 +2794,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_5042.pose"
     },
     {
       "id": "vgt_4221",
@@ -2533,7 +2809,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_4221.pose"
     },
     {
       "id": "vgt_4226",
@@ -2547,7 +2824,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_4226.pose"
     },
     {
       "id": "vgt_4227",
@@ -2561,7 +2839,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_4227.pose"
     },
     {
       "id": "vgt_20730",
@@ -2575,7 +2854,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_20730.pose"
     },
     {
       "id": "vgt_4336",
@@ -2589,7 +2869,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_4336.pose"
     },
     {
       "id": "vgt_4430",
@@ -2603,7 +2884,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_4430.pose"
     },
     {
       "id": "vgt_4433",
@@ -2617,7 +2899,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_4433.pose"
     },
     {
       "id": "vgt_4434",
@@ -2631,7 +2914,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_4434.pose"
     },
     {
       "id": "vgt_4442",
@@ -2645,7 +2929,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_4442.pose"
     },
     {
       "id": "vgt_19846",
@@ -2659,7 +2944,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_19846.pose"
     },
     {
       "id": "vgt_4500",
@@ -2673,7 +2959,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_4500.pose"
     },
     {
       "id": "vgt_20680",
@@ -2687,7 +2974,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_20680.pose"
     },
     {
       "id": "vgt_4513",
@@ -2704,7 +2992,8 @@
         "Limburg",
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_4513.pose"
     },
     {
       "id": "vgt_4533",
@@ -2718,7 +3007,8 @@
       "regions": [
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_4533.pose"
     },
     {
       "id": "vgt_4545",
@@ -2732,7 +3022,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_4545.pose"
     },
     {
       "id": "vgt_4551",
@@ -2746,7 +3037,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_4551.pose"
     },
     {
       "id": "vgt_4552",
@@ -2760,7 +3052,8 @@
       "regions": [
         "Antwerpen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_4552.pose"
     },
     {
       "id": "vgt_4553",
@@ -2775,7 +3068,8 @@
         "Limburg",
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_4553.pose"
     },
     {
       "id": "vgt_4554",
@@ -2789,7 +3083,8 @@
       "regions": [
         "Oost-Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_4554.pose"
     },
     {
       "id": "vgt_4631",
@@ -2804,7 +3099,8 @@
         "Oost-Vlaanderen",
         "Antwerpen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_4631.pose"
     },
     {
       "id": "vgt_4677",
@@ -2818,7 +3114,8 @@
       "regions": [
         "Limburg"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_4677.pose"
     },
     {
       "id": "vgt_4779",
@@ -2832,7 +3129,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_4779.pose"
     },
     {
       "id": "vgt_4780",
@@ -2846,7 +3144,8 @@
       "regions": [
         "Antwerpen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_4780.pose"
     },
     {
       "id": "vgt_4783",
@@ -2863,7 +3162,8 @@
         "Antwerpen",
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_4783.pose"
     },
     {
       "id": "vgt_17543",
@@ -2877,7 +3177,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_17543.pose"
     },
     {
       "id": "vgt_4801",
@@ -2891,7 +3192,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_4801.pose"
     },
     {
       "id": "vgt_2731",
@@ -2905,7 +3207,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_2731.pose"
     },
     {
       "id": "vgt_2732",
@@ -2919,7 +3222,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_2732.pose"
     },
     {
       "id": "vgt_2733",
@@ -2933,7 +3237,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_2733.pose"
     },
     {
       "id": "vgt_2734",
@@ -2947,7 +3252,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_2734.pose"
     },
     {
       "id": "vgt_4855",
@@ -2961,7 +3267,8 @@
       "regions": [
         "Oost-Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_4855.pose"
     },
     {
       "id": "vgt_4859",
@@ -2975,7 +3282,8 @@
       "regions": [
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_4859.pose"
     },
     {
       "id": "vgt_4897",
@@ -2989,7 +3297,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_4897.pose"
     },
     {
       "id": "vgt_4902",
@@ -3003,7 +3312,8 @@
       "regions": [
         "West-Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_4902.pose"
     },
     {
       "id": "vgt_4903",
@@ -3018,7 +3328,8 @@
         "West-Vlaanderen",
         "Oost-Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_4903.pose"
     },
     {
       "id": "vgt_4904",
@@ -3032,7 +3343,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_4904.pose"
     },
     {
       "id": "vgt_5052",
@@ -3049,7 +3361,8 @@
         "Limburg",
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_5052.pose"
     },
     {
       "id": "vgt_5050",
@@ -3063,7 +3376,8 @@
       "regions": [
         "Antwerpen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_5050.pose"
     },
     {
       "id": "vgt_5051",
@@ -3078,7 +3392,8 @@
         "West-Vlaanderen",
         "Antwerpen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_5051.pose"
     },
     {
       "id": "vgt_5049",
@@ -3092,7 +3407,8 @@
       "regions": [
         "Antwerpen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_5049.pose"
     },
     {
       "id": "vgt_14965",
@@ -3106,7 +3422,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_14965.pose"
     },
     {
       "id": "vgt_5068",
@@ -3120,7 +3437,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_5068.pose"
     },
     {
       "id": "vgt_5100",
@@ -3134,7 +3452,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_5100.pose"
     },
     {
       "id": "vgt_5115",
@@ -3148,7 +3467,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_5115.pose"
     },
     {
       "id": "vgt_5116",
@@ -3162,7 +3482,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_5116.pose"
     },
     {
       "id": "vgt_21087",
@@ -3176,7 +3497,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_21087.pose"
     },
     {
       "id": "vgt_15955",
@@ -3190,7 +3512,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_15955.pose"
     },
     {
       "id": "vgt_21088",
@@ -3204,7 +3527,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_21088.pose"
     },
     {
       "id": "vgt_5408",
@@ -3218,7 +3542,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_5408.pose"
     },
     {
       "id": "vgt_15956",
@@ -3232,7 +3557,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_15956.pose"
     },
     {
       "id": "vgt_5465",
@@ -3249,7 +3575,8 @@
         "Limburg",
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_5465.pose"
     },
     {
       "id": "vgt_5494",
@@ -3263,7 +3590,8 @@
       "regions": [
         "West-Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_5494.pose"
     },
     {
       "id": "vgt_5496",
@@ -3277,7 +3605,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_5496.pose"
     },
     {
       "id": "vgt_15557",
@@ -3291,7 +3620,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_15557.pose"
     },
     {
       "id": "vgt_5512",
@@ -3305,7 +3635,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_5512.pose"
     },
     {
       "id": "vgt_5520",
@@ -3319,7 +3650,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_5520.pose"
     },
     {
       "id": "vgt_5560",
@@ -3333,7 +3665,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_5560.pose"
     },
     {
       "id": "vgt_5564",
@@ -3347,7 +3680,8 @@
       "regions": [
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_5564.pose"
     },
     {
       "id": "vgt_5571",
@@ -3361,7 +3695,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_5571.pose"
     },
     {
       "id": "vgt_5646",
@@ -3378,7 +3713,8 @@
         "Limburg",
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_5646.pose"
     },
     {
       "id": "vgt_5654",
@@ -3392,7 +3728,8 @@
       "regions": [
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_5654.pose"
     },
     {
       "id": "vgt_20170",
@@ -3406,7 +3743,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_20170.pose"
     },
     {
       "id": "vgt_15746",
@@ -3420,7 +3758,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_15746.pose"
     },
     {
       "id": "vgt_5707",
@@ -3434,7 +3773,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_5707.pose"
     },
     {
       "id": "vgt_5720",
@@ -3450,7 +3790,8 @@
         "Antwerpen",
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_5720.pose"
     },
     {
       "id": "vgt_5726",
@@ -3464,7 +3805,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_5726.pose"
     },
     {
       "id": "vgt_17955",
@@ -3478,7 +3820,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_17955.pose"
     },
     {
       "id": "vgt_5732",
@@ -3492,7 +3835,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_5732.pose"
     },
     {
       "id": "vgt_5741",
@@ -3506,7 +3850,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_5741.pose"
     },
     {
       "id": "vgt_5884",
@@ -3521,7 +3866,8 @@
         "West-Vlaanderen",
         "Oost-Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_5884.pose"
     },
     {
       "id": "vgt_5992",
@@ -3535,7 +3881,8 @@
       "regions": [
         "West-Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_5992.pose"
     },
     {
       "id": "vgt_16688",
@@ -3549,7 +3896,8 @@
       "regions": [
         "West-Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_16688.pose"
     },
     {
       "id": "vgt_6111",
@@ -3563,7 +3911,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_6111.pose"
     },
     {
       "id": "vgt_6127",
@@ -3577,7 +3926,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_6127.pose"
     },
     {
       "id": "vgt_6129",
@@ -3591,7 +3941,8 @@
       "regions": [
         "West-Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_6129.pose"
     },
     {
       "id": "vgt_6164",
@@ -3605,7 +3956,8 @@
       "regions": [
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_6164.pose"
     },
     {
       "id": "vgt_6173",
@@ -3619,7 +3971,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_6173.pose"
     },
     {
       "id": "vgt_20985",
@@ -3633,7 +3986,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_20985.pose"
     },
     {
       "id": "vgt_6273",
@@ -3647,7 +4001,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_6273.pose"
     },
     {
       "id": "vgt_11984",
@@ -3661,7 +4016,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_11984.pose"
     },
     {
       "id": "vgt_6277",
@@ -3675,7 +4031,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_6277.pose"
     },
     {
       "id": "vgt_16962",
@@ -3689,7 +4046,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_16962.pose"
     },
     {
       "id": "vgt_6437",
@@ -3703,7 +4061,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_6437.pose"
     },
     {
       "id": "vgt_6475",
@@ -3717,7 +4076,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_6475.pose"
     },
     {
       "id": "vgt_6529",
@@ -3731,7 +4091,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_6529.pose"
     },
     {
       "id": "vgt_15959",
@@ -3745,7 +4106,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_15959.pose"
     },
     {
       "id": "vgt_6551",
@@ -3759,7 +4121,8 @@
       "regions": [
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_6551.pose"
     },
     {
       "id": "vgt_6587",
@@ -3774,7 +4137,8 @@
         "West-Vlaanderen",
         "Oost-Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_6587.pose"
     },
     {
       "id": "vgt_18880",
@@ -3788,7 +4152,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_18880.pose"
     },
     {
       "id": "vgt_6670",
@@ -3802,7 +4167,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_6670.pose"
     },
     {
       "id": "vgt_6686",
@@ -3819,7 +4185,8 @@
         "Antwerpen",
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_6686.pose"
     },
     {
       "id": "vgt_6719",
@@ -3834,7 +4201,8 @@
         "Antwerpen",
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_6719.pose"
     },
     {
       "id": "vgt_6764",
@@ -3848,7 +4216,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_6764.pose"
     },
     {
       "id": "vgt_6794",
@@ -3862,7 +4231,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_6794.pose"
     },
     {
       "id": "vgt_6796",
@@ -3876,7 +4246,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_6796.pose"
     },
     {
       "id": "vgt_6843",
@@ -3890,7 +4261,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_6843.pose"
     },
     {
       "id": "vgt_6844",
@@ -3904,7 +4276,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_6844.pose"
     },
     {
       "id": "vgt_21033",
@@ -3918,7 +4291,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_21033.pose"
     },
     {
       "id": "vgt_16458",
@@ -3932,7 +4306,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_16458.pose"
     },
     {
       "id": "vgt_6865",
@@ -3946,7 +4321,8 @@
       "regions": [
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_6865.pose"
     },
     {
       "id": "vgt_18763",
@@ -3960,7 +4336,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_18763.pose"
     },
     {
       "id": "vgt_6888",
@@ -3974,7 +4351,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_6888.pose"
     },
     {
       "id": "vgt_20964",
@@ -3988,7 +4366,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_20964.pose"
     },
     {
       "id": "vgt_6983",
@@ -4002,7 +4381,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_6983.pose"
     },
     {
       "id": "vgt_6984",
@@ -4016,7 +4396,8 @@
       "regions": [
         "Oost-Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_6984.pose"
     },
     {
       "id": "vgt_7016",
@@ -4030,13 +4411,14 @@
       "regions": [
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_7016.pose"
     },
     {
       "id": "vgt_21032",
       "flemish": "LUCHTPENSEEL",
-      "dutch": "luchtpenseel, ae\u00adro\u00adgraaf, verfspuit",
-      "english": "luchtpenseel, ae\u00adro\u00adgraaf, verfspuit",
+      "dutch": "luchtpenseel, ae­ro­graaf, verfspuit",
+      "english": "luchtpenseel, ae­ro­graaf, verfspuit",
       "category": "",
       "videoUrl": "https://vlaamsegebarentaal.be/signbank/dictionary/protected_media/glossvideo/LU/LUCHTPENSEEL-A-21032.mp4",
       "vimeoUrl": "https://vimeo.com/vgtc/21032ety",
@@ -4044,7 +4426,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_21032.pose"
     },
     {
       "id": "vgt_7050",
@@ -4058,7 +4441,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_7050.pose"
     },
     {
       "id": "vgt_15960",
@@ -4072,7 +4456,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_15960.pose"
     },
     {
       "id": "vgt_17576",
@@ -4086,7 +4471,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_17576.pose"
     },
     {
       "id": "vgt_7089",
@@ -4100,7 +4486,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_7089.pose"
     },
     {
       "id": "vgt_7091",
@@ -4114,7 +4501,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_7091.pose"
     },
     {
       "id": "vgt_7108",
@@ -4128,7 +4516,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_7108.pose"
     },
     {
       "id": "vgt_7110",
@@ -4143,7 +4532,8 @@
         "Oost-Vlaanderen",
         "Limburg"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_7110.pose"
     },
     {
       "id": "vgt_7117",
@@ -4157,7 +4547,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_7117.pose"
     },
     {
       "id": "vgt_20128",
@@ -4171,7 +4562,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_20128.pose"
     },
     {
       "id": "vgt_7214",
@@ -4185,7 +4577,8 @@
       "regions": [
         "Oost-Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_7214.pose"
     },
     {
       "id": "vgt_7215",
@@ -4199,7 +4592,8 @@
       "regions": [
         "West-Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_7215.pose"
     },
     {
       "id": "vgt_7403",
@@ -4213,7 +4607,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_7403.pose"
     },
     {
       "id": "vgt_7405",
@@ -4227,7 +4622,8 @@
       "regions": [
         "Oost-Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_7405.pose"
     },
     {
       "id": "vgt_16802",
@@ -4241,7 +4637,8 @@
       "regions": [
         "West-Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_16802.pose"
     },
     {
       "id": "vgt_7417",
@@ -4255,7 +4652,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_7417.pose"
     },
     {
       "id": "vgt_7418",
@@ -4271,7 +4669,8 @@
         "Antwerpen",
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_7418.pose"
     },
     {
       "id": "vgt_15032",
@@ -4285,7 +4684,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_15032.pose"
     },
     {
       "id": "vgt_7598",
@@ -4299,7 +4699,8 @@
       "regions": [
         "Oost-Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_7598.pose"
     },
     {
       "id": "vgt_7609",
@@ -4313,7 +4714,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_7609.pose"
     },
     {
       "id": "vgt_7610",
@@ -4327,7 +4729,8 @@
       "regions": [
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_7610.pose"
     },
     {
       "id": "vgt_7648",
@@ -4341,7 +4744,8 @@
       "regions": [
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_7648.pose"
     },
     {
       "id": "vgt_20731",
@@ -4355,7 +4759,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_20731.pose"
     },
     {
       "id": "vgt_17652",
@@ -4370,7 +4775,8 @@
         "Limburg",
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_17652.pose"
     },
     {
       "id": "vgt_1244",
@@ -4384,7 +4790,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_1244.pose"
     },
     {
       "id": "vgt_7748",
@@ -4398,7 +4805,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_7748.pose"
     },
     {
       "id": "vgt_7749",
@@ -4414,7 +4822,8 @@
         "Antwerpen",
         "Limburg"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_7749.pose"
     },
     {
       "id": "vgt_7864",
@@ -4428,7 +4837,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_7864.pose"
     },
     {
       "id": "vgt_15961",
@@ -4442,7 +4852,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_15961.pose"
     },
     {
       "id": "vgt_7865",
@@ -4456,7 +4867,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_7865.pose"
     },
     {
       "id": "vgt_21104",
@@ -4470,7 +4882,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_21104.pose"
     },
     {
       "id": "vgt_7932",
@@ -4484,7 +4897,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_7932.pose"
     },
     {
       "id": "vgt_16467",
@@ -4498,7 +4912,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_16467.pose"
     },
     {
       "id": "vgt_7941",
@@ -4512,7 +4927,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_7941.pose"
     },
     {
       "id": "vgt_8040",
@@ -4526,7 +4942,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_8040.pose"
     },
     {
       "id": "vgt_8075",
@@ -4542,7 +4959,8 @@
         "Oost-Vlaanderen",
         "Antwerpen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_8075.pose"
     },
     {
       "id": "vgt_8114",
@@ -4556,7 +4974,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_8114.pose"
     },
     {
       "id": "vgt_8115",
@@ -4573,7 +4992,8 @@
         "Limburg",
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_8115.pose"
     },
     {
       "id": "vgt_8132",
@@ -4587,7 +5007,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_8132.pose"
     },
     {
       "id": "vgt_16803",
@@ -4601,7 +5022,8 @@
       "regions": [
         "Oost-Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_16803.pose"
     },
     {
       "id": "vgt_15962",
@@ -4615,7 +5037,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_15962.pose"
     },
     {
       "id": "vgt_20976",
@@ -4629,13 +5052,14 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_20976.pose"
     },
     {
       "id": "vgt_17943",
       "flemish": "OEKRAINE",
-      "dutch": "Oekra\u00efne",
-      "english": "Oekra\u00efne",
+      "dutch": "Oekraïne",
+      "english": "Oekraïne",
       "category": "",
       "videoUrl": "https://vlaamsegebarentaal.be/signbank/dictionary/protected_media/glossvideo/OE/OEKRAINE-C-17943.mp4",
       "vimeoUrl": "20/10/2025 Deaf World Boek",
@@ -4643,7 +5067,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_17943.pose"
     },
     {
       "id": "vgt_8227",
@@ -4657,7 +5082,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_8227.pose"
     },
     {
       "id": "vgt_8336",
@@ -4671,7 +5097,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_8336.pose"
     },
     {
       "id": "vgt_8362",
@@ -4685,7 +5112,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_8362.pose"
     },
     {
       "id": "vgt_8364",
@@ -4699,7 +5127,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_8364.pose"
     },
     {
       "id": "vgt_8501",
@@ -4713,7 +5142,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_8501.pose"
     },
     {
       "id": "vgt_17203",
@@ -4727,7 +5157,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_17203.pose"
     },
     {
       "id": "vgt_20962",
@@ -4741,7 +5172,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_20962.pose"
     },
     {
       "id": "vgt_21103",
@@ -4755,7 +5187,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_21103.pose"
     },
     {
       "id": "vgt_8611",
@@ -4769,7 +5202,8 @@
       "regions": [
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_8611.pose"
     },
     {
       "id": "vgt_20963",
@@ -4783,7 +5217,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_20963.pose"
     },
     {
       "id": "vgt_8715",
@@ -4797,7 +5232,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_8715.pose"
     },
     {
       "id": "vgt_8718",
@@ -4811,7 +5247,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_8718.pose"
     },
     {
       "id": "vgt_8836",
@@ -4825,7 +5262,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_8836.pose"
     },
     {
       "id": "vgt_15963",
@@ -4839,7 +5277,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_15963.pose"
     },
     {
       "id": "vgt_8899",
@@ -4853,7 +5292,8 @@
       "regions": [
         "West-Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_8899.pose"
     },
     {
       "id": "vgt_19095",
@@ -4867,7 +5307,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_19095.pose"
     },
     {
       "id": "vgt_8971",
@@ -4881,7 +5322,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_8971.pose"
     },
     {
       "id": "vgt_17712",
@@ -4895,7 +5337,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_17712.pose"
     },
     {
       "id": "vgt_21026",
@@ -4909,7 +5352,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_21026.pose"
     },
     {
       "id": "vgt_9117",
@@ -4923,7 +5367,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_9117.pose"
     },
     {
       "id": "vgt_9224",
@@ -4937,7 +5382,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_9224.pose"
     },
     {
       "id": "vgt_1486",
@@ -4951,7 +5397,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_1486.pose"
     },
     {
       "id": "vgt_9511",
@@ -4965,7 +5412,8 @@
       "regions": [
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_9511.pose"
     },
     {
       "id": "vgt_9611",
@@ -4979,7 +5427,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_9611.pose"
     },
     {
       "id": "vgt_15965",
@@ -4993,7 +5442,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_15965.pose"
     },
     {
       "id": "vgt_19453",
@@ -5007,7 +5457,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_19453.pose"
     },
     {
       "id": "vgt_15118",
@@ -5021,7 +5472,8 @@
       "regions": [
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_15118.pose"
     },
     {
       "id": "vgt_21093",
@@ -5035,7 +5487,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_21093.pose"
     },
     {
       "id": "vgt_9753",
@@ -5049,7 +5502,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_9753.pose"
     },
     {
       "id": "vgt_18246",
@@ -5063,7 +5517,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_18246.pose"
     },
     {
       "id": "vgt_16014",
@@ -5077,7 +5532,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_16014.pose"
     },
     {
       "id": "vgt_9844",
@@ -5091,7 +5547,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_9844.pose"
     },
     {
       "id": "vgt_9845",
@@ -5105,7 +5562,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_9845.pose"
     },
     {
       "id": "vgt_9850",
@@ -5121,7 +5579,8 @@
         "Antwerpen",
         "Limburg"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_9850.pose"
     },
     {
       "id": "vgt_20932",
@@ -5135,7 +5594,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_20932.pose"
     },
     {
       "id": "vgt_9906",
@@ -5150,7 +5610,8 @@
         "Antwerpen",
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_9906.pose"
     },
     {
       "id": "vgt_9947",
@@ -5165,7 +5626,8 @@
         "Oost-Vlaanderen",
         "Antwerpen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_9947.pose"
     },
     {
       "id": "vgt_20676",
@@ -5179,7 +5641,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_20676.pose"
     },
     {
       "id": "vgt_9995",
@@ -5193,7 +5656,8 @@
       "regions": [
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_9995.pose"
     },
     {
       "id": "vgt_10068",
@@ -5207,7 +5671,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_10068.pose"
     },
     {
       "id": "vgt_10080",
@@ -5221,7 +5686,8 @@
       "regions": [
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_10080.pose"
     },
     {
       "id": "vgt_10138",
@@ -5235,13 +5701,14 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_10138.pose"
     },
     {
       "id": "vgt_16169",
       "flemish": "ROOM",
-      "dutch": "room, cr\u00e8me",
-      "english": "room, cr\u00e8me",
+      "dutch": "room, crème",
+      "english": "room, crème",
       "category": "West-Vlaanderen, Oost-Vlaanderen",
       "videoUrl": "https://vlaamsegebarentaal.be/signbank/dictionary/protected_media/glossvideo/RO/ROOM-A-16169.mp4",
       "vimeoUrl": "https://vimeo.com/vgtc/16169ety",
@@ -5250,7 +5717,8 @@
         "West-Vlaanderen",
         "Oost-Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_16169.pose"
     },
     {
       "id": "vgt_15132",
@@ -5264,7 +5732,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_15132.pose"
     },
     {
       "id": "vgt_20173",
@@ -5278,7 +5747,8 @@
       "regions": [
         "West-Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_20173.pose"
     },
     {
       "id": "vgt_10261",
@@ -5292,7 +5762,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_10261.pose"
     },
     {
       "id": "vgt_21106",
@@ -5306,7 +5777,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_21106.pose"
     },
     {
       "id": "vgt_21086",
@@ -5320,7 +5792,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_21086.pose"
     },
     {
       "id": "vgt_15967",
@@ -5334,7 +5807,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_15967.pose"
     },
     {
       "id": "vgt_10286",
@@ -5348,7 +5822,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_10286.pose"
     },
     {
       "id": "vgt_10432",
@@ -5362,7 +5837,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_10432.pose"
     },
     {
       "id": "vgt_10433",
@@ -5376,7 +5852,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_10433.pose"
     },
     {
       "id": "vgt_16544",
@@ -5390,7 +5867,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_16544.pose"
     },
     {
       "id": "vgt_10542",
@@ -5404,7 +5882,8 @@
       "regions": [
         "Antwerpen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_10542.pose"
     },
     {
       "id": "vgt_10545",
@@ -5418,7 +5897,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_10545.pose"
     },
     {
       "id": "vgt_20975",
@@ -5432,7 +5912,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_20975.pose"
     },
     {
       "id": "vgt_10707",
@@ -5446,7 +5927,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_10707.pose"
     },
     {
       "id": "vgt_958",
@@ -5460,7 +5942,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_958.pose"
     },
     {
       "id": "vgt_21094",
@@ -5474,7 +5957,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_21094.pose"
     },
     {
       "id": "vgt_10933",
@@ -5488,7 +5972,8 @@
       "regions": [
         "West-Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_10933.pose"
     },
     {
       "id": "vgt_10983",
@@ -5503,7 +5988,8 @@
         "West-Vlaanderen",
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_10983.pose"
     },
     {
       "id": "vgt_11032",
@@ -5519,7 +6005,8 @@
         "Limburg",
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_11032.pose"
     },
     {
       "id": "vgt_11097",
@@ -5536,7 +6023,8 @@
         "Antwerpen",
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_11097.pose"
     },
     {
       "id": "vgt_21066",
@@ -5550,7 +6038,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_21066.pose"
     },
     {
       "id": "vgt_11257",
@@ -5564,7 +6053,8 @@
       "regions": [
         "Antwerpen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_11257.pose"
     },
     {
       "id": "vgt_11259",
@@ -5578,7 +6068,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_11259.pose"
     },
     {
       "id": "vgt_11260",
@@ -5592,7 +6083,8 @@
       "regions": [
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_11260.pose"
     },
     {
       "id": "vgt_11306",
@@ -5606,7 +6098,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_11306.pose"
     },
     {
       "id": "vgt_11341",
@@ -5620,7 +6113,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_11341.pose"
     },
     {
       "id": "vgt_11342",
@@ -5635,7 +6129,8 @@
         "West-Vlaanderen",
         "Oost-Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_11342.pose"
     },
     {
       "id": "vgt_11358",
@@ -5652,7 +6147,8 @@
         "Antwerpen",
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_11358.pose"
     },
     {
       "id": "vgt_11359",
@@ -5666,7 +6162,8 @@
       "regions": [
         "Limburg"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_11359.pose"
     },
     {
       "id": "vgt_11395",
@@ -5680,7 +6177,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_11395.pose"
     },
     {
       "id": "vgt_11539",
@@ -5694,7 +6192,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_11539.pose"
     },
     {
       "id": "vgt_11540",
@@ -5711,7 +6210,8 @@
         "Limburg",
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_11540.pose"
     },
     {
       "id": "vgt_11605",
@@ -5726,7 +6226,8 @@
         "Antwerpen",
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_11605.pose"
     },
     {
       "id": "vgt_11634",
@@ -5740,7 +6241,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_11634.pose"
     },
     {
       "id": "vgt_11718",
@@ -5754,7 +6256,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_11718.pose"
     },
     {
       "id": "vgt_11719",
@@ -5768,7 +6271,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_11719.pose"
     },
     {
       "id": "vgt_11728",
@@ -5782,7 +6286,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_11728.pose"
     },
     {
       "id": "vgt_11768",
@@ -5796,7 +6301,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_11768.pose"
     },
     {
       "id": "vgt_11848",
@@ -5810,7 +6316,8 @@
       "regions": [
         "West-Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_11848.pose"
     },
     {
       "id": "vgt_21085",
@@ -5824,7 +6331,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_21085.pose"
     },
     {
       "id": "vgt_11912",
@@ -5838,7 +6346,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_11912.pose"
     },
     {
       "id": "vgt_5224",
@@ -5853,7 +6362,8 @@
         "Antwerpen",
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_5224.pose"
     },
     {
       "id": "vgt_21099",
@@ -5867,7 +6377,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_21099.pose"
     },
     {
       "id": "vgt_18753",
@@ -5881,7 +6392,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_18753.pose"
     },
     {
       "id": "vgt_21083",
@@ -5895,7 +6407,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_21083.pose"
     },
     {
       "id": "vgt_21100",
@@ -5909,7 +6422,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_21100.pose"
     },
     {
       "id": "vgt_12085",
@@ -5923,7 +6437,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_12085.pose"
     },
     {
       "id": "vgt_12187",
@@ -5937,7 +6452,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_12187.pose"
     },
     {
       "id": "vgt_12188",
@@ -5951,7 +6467,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_12188.pose"
     },
     {
       "id": "vgt_21097",
@@ -5965,7 +6482,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_21097.pose"
     },
     {
       "id": "vgt_12193",
@@ -5979,7 +6497,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_12193.pose"
     },
     {
       "id": "vgt_12207",
@@ -5993,7 +6512,8 @@
       "regions": [
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_12207.pose"
     },
     {
       "id": "vgt_12306",
@@ -6007,7 +6527,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_12306.pose"
     },
     {
       "id": "vgt_12324",
@@ -6021,7 +6542,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_12324.pose"
     },
     {
       "id": "vgt_15969",
@@ -6035,7 +6557,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_15969.pose"
     },
     {
       "id": "vgt_12393",
@@ -6049,7 +6572,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_12393.pose"
     },
     {
       "id": "vgt_12395",
@@ -6063,7 +6587,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_12395.pose"
     },
     {
       "id": "vgt_12453",
@@ -6080,7 +6605,8 @@
         "Limburg",
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_12453.pose"
     },
     {
       "id": "vgt_4693",
@@ -6094,7 +6620,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_4693.pose"
     },
     {
       "id": "vgt_12520",
@@ -6108,7 +6635,8 @@
       "regions": [
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_12520.pose"
     },
     {
       "id": "vgt_12534",
@@ -6122,7 +6650,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_12534.pose"
     },
     {
       "id": "vgt_12539",
@@ -6136,7 +6665,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_12539.pose"
     },
     {
       "id": "vgt_12555",
@@ -6150,7 +6680,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_12555.pose"
     },
     {
       "id": "vgt_12559",
@@ -6167,7 +6698,8 @@
         "Antwerpen",
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_12559.pose"
     },
     {
       "id": "vgt_20974",
@@ -6181,7 +6713,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_20974.pose"
     },
     {
       "id": "vgt_12586",
@@ -6197,7 +6730,8 @@
         "Oost-Vlaanderen",
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_12586.pose"
     },
     {
       "id": "vgt_12648",
@@ -6211,7 +6745,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_12648.pose"
     },
     {
       "id": "vgt_12645",
@@ -6225,7 +6760,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_12645.pose"
     },
     {
       "id": "vgt_12646",
@@ -6239,7 +6775,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_12646.pose"
     },
     {
       "id": "vgt_20642",
@@ -6253,7 +6790,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_20642.pose"
     },
     {
       "id": "vgt_17338",
@@ -6267,7 +6805,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_17338.pose"
     },
     {
       "id": "vgt_12717",
@@ -6284,7 +6823,8 @@
         "Antwerpen",
         "Limburg"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_12717.pose"
     },
     {
       "id": "vgt_12731",
@@ -6299,7 +6839,8 @@
         "West-Vlaanderen",
         "Oost-Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_12731.pose"
     },
     {
       "id": "vgt_20969",
@@ -6313,7 +6854,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_20969.pose"
     },
     {
       "id": "vgt_12765",
@@ -6329,7 +6871,8 @@
         "Antwerpen",
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_12765.pose"
     },
     {
       "id": "vgt_12829",
@@ -6344,7 +6887,8 @@
         "Antwerpen",
         "Limburg"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_12829.pose"
     },
     {
       "id": "vgt_20960",
@@ -6358,7 +6902,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_20960.pose"
     },
     {
       "id": "vgt_12856",
@@ -6372,7 +6917,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_12856.pose"
     },
     {
       "id": "vgt_16551",
@@ -6386,7 +6932,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_16551.pose"
     },
     {
       "id": "vgt_20694",
@@ -6400,7 +6947,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_20694.pose"
     },
     {
       "id": "vgt_12892",
@@ -6416,7 +6964,8 @@
         "Limburg",
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_12892.pose"
     },
     {
       "id": "vgt_12895",
@@ -6430,7 +6979,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_12895.pose"
     },
     {
       "id": "vgt_16542",
@@ -6444,7 +6994,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_16542.pose"
     },
     {
       "id": "vgt_18655",
@@ -6458,7 +7009,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_18655.pose"
     },
     {
       "id": "vgt_20605",
@@ -6472,7 +7024,8 @@
       "regions": [
         "Unknown"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_20605.pose"
     },
     {
       "id": "vgt_12987",
@@ -6486,7 +7039,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_12987.pose"
     },
     {
       "id": "vgt_13000",
@@ -6500,7 +7054,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_13000.pose"
     },
     {
       "id": "vgt_13023",
@@ -6514,7 +7069,8 @@
       "regions": [
         "Vlaams-Brabant"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_13023.pose"
     },
     {
       "id": "vgt_13060",
@@ -6528,7 +7084,8 @@
       "regions": [
         "Vlaanderen"
       ],
-      "hasEtymology": true
+      "hasEtymology": true,
+      "poseFile": "poses/vgt_13060.pose"
     },
     {
       "id": "vgt_13185",
